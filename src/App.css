@@ -1,6 +1,98 @@
-.App {
+.App{
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+
 }
+
+.formCont{
+  display: flex;
+  padding: 20px;
+  min-width: 50%;
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0 7px 30px rgba(62, 9, 11, .3);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.header{
+  font-size: 50px;
+font-weight: bold;}
+
+.left{
+
+}
+
+.addItem{
+
+}
+.inputItem{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  
+}
+.buttonItem{
+  color: white;
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  align-self: center;
+  width: 50%;
+  background-color: #d9a6e6;
+  outline: none;
+}
+
+
+
+
+
+.itemStyle{
+  font-size: 20px;
+}
+.removeStyle{
+  background-color: rgb(251, 86, 86);
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  outline: none;
+
+}
+
+.buttonItem:hover, .removeStyle:hover{
+  opacity: 0.5;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.formStyle{
+  display: flex;
+  flex-direction: column;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -28,11 +120,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
