@@ -14,6 +14,7 @@
 
 .formCont{
   display: flex;
+  justify-content: space-between;
   padding: 20px;
   min-width: 50%;
   background-color: white;
@@ -59,14 +60,23 @@ font-weight: bold;}
   width: 50%;
   background-color: #d9a6e6;
   outline: none;
+  border-radius: 10px;
+
 }
 
 
-
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
 
 
 .itemStyle{
   font-size: 20px;
+  margin-right: 20px;
+  align-self: center;
 }
 .removeStyle{
   background-color: rgb(251, 86, 86);
@@ -76,7 +86,11 @@ font-weight: bold;}
   height: 30px;
   width: 30px;
   outline: none;
-
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .buttonItem:hover, .removeStyle:hover{

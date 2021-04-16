@@ -3,7 +3,7 @@ import '../App.css';
 
 const Item = ({ item, removeItem }) => {
     return(
-        <div>
+        <div className="flex">
             <span className="itemStyle">{item}</span>
             <button className="removeStyle" onClick={() => removeItem(item)}>X</button>
         </div>
