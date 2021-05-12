@@ -17,7 +17,7 @@ const AddItemForm = ({ addItem }) => {
     return(
         <div>
             <form className="formStyle" onSubmit={handleSubmit}>
-                <input placeholder="Add item" className="inputItem" value={item} onChange={(e) => setItem(e.target.value)}/>
+                <input required placeholder="Add item" className="inputItem" value={item} onChange={(e) => setItem(e.target.value)}/>
                 <button className="buttonItem">Add Item</button>
             </form>
         </div>

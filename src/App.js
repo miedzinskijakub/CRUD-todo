@@ -26,6 +26,8 @@ function App() {
     localStorage.setItem('items', JSON.stringify(items));
   }, [items])
 
+ 
+
   return (
     <div className="App">
       <div className="formCont">

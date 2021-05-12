@@ -6,6 +6,9 @@ const ItemList = ({ items, removeItem }) => {
     return(
         <div>
             <ul>
+                <li>
+
+                </li>
                 {items.map((item) => (
                     <li>
                         <Item key={item} item={item} removeItem={removeItem}/>
